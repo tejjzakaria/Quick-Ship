@@ -1,0 +1,554 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+:root{
+    --purple: #7B57DF;
+    --blue: #1B2149;
+    --green: #5DC983;
+    --red: #EB5769;
+    --yellow: #F2AF4C;
+    --blueLight: #252c5b;
+    --blueLight2: #333b71;
+    --greenLight: #5DC9833d;
+    --redLight: #EB57693d;
+    --yellowLight: #F2AF4C3d;
+    --realBlue: #28c2ff;
+    --realBlueLight: #28c2ff3d;
+    --purpleLight: #7B57DF3d;
+
+}
+
+
+*{
+    font-family: 'Gilroy-Medium', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--blue);
+    
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+fieldset{
+    background-color: var(--purple);
+    padding: 50px;
+    width: 400px;
+    margin-top: 15%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 50px rgba(255, 255, 255, 0.129);
+    
+}
+input{
+    background-color: var(--purple);
+    border: solid 2px white;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+#sign_up_fieldset{
+    margin-top: 8%;
+}
+
+#logo{
+    width: 10%;
+    
+    margin-bottom: 10px;
+}
+
+h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+#submit{
+    background-color: white;
+    color: var(--blue);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+#submit:hover{
+    background-color: var(--purple);
+    color: white;
+}
+
+h5{
+    color: white;
+    font-weight: 200;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    padding: 15px;
+    width: 200px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+h5 a{
+    color: white;
+    text-decoration: underline;
+    font-weight: 400;
+    
+}
+
+
+/* HEADER STYLING */
+
+header{
+    width: 300px;
+    height: 100%;
+    padding: 40px;
+    background-color: var(--blueLight);
+    position: fixed;
+
+}
+hr{
+    border: solid 0.5px rgb(205, 205, 205);;
+    width: 200px;
+
+}
+#logo{
+    display: block;
+    
+    margin-right: auto;
+    width: 60%;
+}
+
+nav ul{
+    display: block;
+    
+    margin-right: auto;
+    width: 60%;
+    margin-top: 100px;
+}
+nav ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 200px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    
+}
+
+nav ul li:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.092);
+    
+}
+
+nav ul li:active{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.092);
+    
+}
+
+
+nav ul li a{
+    color: rgb(205, 205, 205);
+}
+nav ul li a:hover{
+    color: white;
+}
+
+nav ul li a:active{
+    color: white;
+}
+nav ul li a i{
+    margin-right: 10px;
+    transition: 0.3s ease;
+}
+nav ul li a i:hover{
+    color: var(--purple);
+}
+
+#addParcelBtn{
+    width: 220px;
+    padding: 15px;
+    background-color: var(--purple);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 350px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+#addParcelBtn a{
+    color: white;
+}
+
+
+
+#addParcelBtn:hover{
+    background-color: var(--purpleLight);
+    color: var(--purple);
+    
+}
+
+#avatar{
+    width: 20%;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.userInfo{
+    display: flex;
+    align-items: center;
+}
+legend{
+    color: white;
+    padding: 30px;
+}
+
+legend a{
+    color: white;
+    text-decoration: underline;
+}
+
+/* SECTION STYLING */
+
+section{
+    margin-left: 400px;
+    margin-right: 100px;
+    padding: 30px 0;
+}
+
+.searchBar{
+    display: flex;
+    align-items: center;
+}
+
+.fa-magnifying-glass{
+    color: white;
+    background-color: var(--blueLight);
+    padding: 20px 15px;
+    height: 60px;
+    border-radius: 10px 0 0 10px;
+    
+}
+#searchBar{
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+    border-radius: 0 10px 10px 0;
+    background-color: var(--blueLight);
+    color: white;
+    margin: 0;
+    border: none;
+}
+
+h1{
+    margin-top: 20px;
+    
+}
+h2{
+    margin-top: 10px;
+    font-size: 45px;
+}
+.containerOverviewTabs{
+    background-color: var(--blueLight);
+    width: 25%;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+
+.lastContainerOverviewTab{
+    margin-right: 0;
+}
+.iconOverviewTab{
+    padding: 10px;
+    background-color: var(--blueLight2);
+    border-radius: 50px;
+}
+
+.overview{
+    display: flex;
+    width: 100%;
+}
+.containerParcelsList{
+    width: 49%;
+    background-color: var(--blueLight);
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    float: left;
+    height: 350px;
+}
+.containerParcelsList a{
+    color: var(--purple);
+}
+.containerParcelsList table{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.containerParcelsList table td{
+    padding: 25px 0;
+    font-size: 15px;
+}
+.containerParcelsList table{
+    border-collapse: separate;
+    border-spacing: 0;
+    color: white;
+    font-size: 13px;
+}
+
+th {
+
+  border-style: none;
+  padding: 10px;
+  background-color: var(--blueLight2);
+}
+
+tr:first-child th:first-child { border-top-left-radius: 10px; }
+tr:first-child td:last-child { border-top-right-radius: 10px; }
+
+tr:last-child th:first-child { border-bottom-left-radius: 10px; }
+tr:last-child th:last-child { border-bottom-right-radius: 10px; }
+
+tr:first-child th { border-top-style: none; }
+tr th:first-child { border-left-style: none; }
+.wrapper2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#deliveredStatus a{
+    background-color: var(--greenLight);
+    color: var(--green);
+    padding: 10px;
+    border-radius: 10px;
+    pointer-events: none;
+    font-size: 12px;
+}
+
+#returnedStatus a{
+    background-color: var(--redLight);
+    color: var(--red);
+    padding: 10px;
+    border-radius: 10px;
+    pointer-events: none;
+    font-size: 12px;
+}
+#inTransitStatus a{
+    background-color: var(--yellowLight);
+    color: var(--yellow);
+    padding: 10px;
+    border-radius: 10px;
+    pointer-events: none;
+    font-size: 12px;
+}
+
+.containerGeneralStats{
+    float: right;
+}
+
+.wrapper3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+}
+.containerStats{
+    
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    background-color: var(--blueLight2);
+}
+
+h4{
+    color: white;
+    font-family: 'Gilroy-Light';
+}
+
+progress{
+    height: 4px;
+    background-color: var(--blueLight2);
+}
+#stat1::-moz-progress-bar { background: var(--red); }
+#stat1::-webkit-progress-value { background: var(--red); }
+#stat1 { color: var(--red); }
+
+#stat2::-moz-progress-bar { background: var(--green); }
+#stat2::-webkit-progress-value { background: var(--green); }
+#stat2 { color: var(--green); }
+
+#stat3::-moz-progress-bar { background: var(--yellow); }
+#stat3::-webkit-progress-value { background: var(--yellow); }
+#stat3 { color: var(--yellow); }
+
+
+.wrapper4{
+    text-align: center;
+    padding: 15px;
+    background-color: var(--blueLight2);
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.bottomTables{
+    margin-bottom: 40px;
+}
+
+/* PARCEL PAGE STYLING */
+
+.parcelPageTable{
+    width: 100%;
+    height: 100%;
+}
+
+.fa-pen-to-square, .fa-trash{
+    padding: 5px;
+    transition: 0.3s ease;
+}
+
+.fa-pen-to-square:hover{
+    color: var(--green);
+}
+
+.fa-trash:hover{
+    color: var(--red);
+}
+
+.wrapper2 a{
+    color: var(--purple);
+}
+
+.containerAddParcel{
+    width: 100%;
+    background-color: var(--blueLight);
+    padding: 80px;
+    border-radius: 10px;
+}
+
+.inputsNewParcelPage{
+    border: none;
+    background-color: var(--blueLight2);
+    padding: 15px;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+.inputsNewParcelPage:focus{
+    border: solid 2px white;
+}
+#addParcel{
+    padding: 15px;
+    margin: 10px;
+    float: right;
+    background-color: var(--purple);
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    border: solid 1.5px var(--purple);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+#addParcel:hover{
+    background-color: var(--blueLight2);
+    border: solid 1.5px white;
+}
+
+#newParcel{
+    border: none;
+    background-color: var(--purple);
+    margin: 10px;
+    color: white;
+    padding: 15px;
+    width: 15%;
+    border-radius: 10px;
+}
+#orderNumber{
+    width: 31%;
+}
+#parcelType{
+    width: 20%;
+}
+#openDoNotOpen{
+    width: 26%;
+}
+#recipient{
+    width: 48%;
+}
+#phoneNumber{
+    width: 48%;
+}
+
+#cityList{
+    width: 48%;
+}
+#neighborhood{
+    width: 48%;
+}
+#adresse{
+    width: 48%;
+}
+#info{
+    width: 48%;
+}
+#price{
+    width: 48%;
+}
+#productNature{
+    width: 48%;
+}
+
+
+#newParcelStatus a{
+    background-color: var(--realBlueLight);
+    color: var(--realBlue);
+    padding: 10px;
+    border-radius: 10px;
+    pointer-events: none;
+    font-size: 12px;
+}
+
+#unpaidStatus a{
+    background-color: var(--redLight);
+    color: var(--red);
+    padding: 10px;
+    border-radius: 10px;
+    pointer-events: none;
+    font-size: 12px;
+}
+
+#paymentStatus{
+    width: 50px;
+}
+
+#paidStatus a{
+    background-color: var(--greenLight);
+    color: var(--green);
+    padding: 10px;
+    border-radius: 10px;
+    pointer-events: none;
+    font-size: 12px;
+}
